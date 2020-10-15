@@ -28,6 +28,9 @@ module.exports = {
     },
   },
 
+//we will use this config for heroku
+//we need to know which server, username, password & database
+//heroku will give us all the info through the process.env
   production: {
     client: "pg",
     connection: pgConnection,
